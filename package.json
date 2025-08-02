@@ -4,6 +4,8 @@
   "description": "This app manages your contacts, like a phone book",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "startDev": "nodemon -e js,json,graphql",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
