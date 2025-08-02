@@ -1,0 +1,19 @@
+{
+  "name": "contacts",
+  "version": "0.1.0",
+  "description": "This app manages your contacts, like a phone book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosAMolina/contacts-js.git"
+  },
+  "author": "CarlosAMolina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosAMolina/contacts-js/issues"
+  },
+  "homepage": "https://github.com/CarlosAMolina/contacts-js#readme"
+}
