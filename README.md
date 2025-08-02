@@ -7,3 +7,12 @@
   totalContacts
 }
 ```
+
+```json
+{
+  allContacts {
+    id
+    name
+  }
+}
+```

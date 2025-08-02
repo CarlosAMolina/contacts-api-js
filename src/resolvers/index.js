@@ -5,6 +5,7 @@ const contacts = [
 
 export const resolvers = {
     Query: {
-        totalContacts: () => contacts.length
+        totalContacts: () => contacts.length,
+        allContacts: () => contacts
     }
 }

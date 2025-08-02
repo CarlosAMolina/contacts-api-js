@@ -1,3 +1,9 @@
+type Contact {
+    id: Int!
+    name: String!
+}
+
 type Query {
     totalContacts: Int!
+    allContacts: [Contact!]!
 }
