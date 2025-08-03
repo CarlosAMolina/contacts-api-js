@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "John",
+      "nicknames": ["Johnny", "JD"],
       "phones": [
           {
               "description": "personal",
@@ -18,7 +19,8 @@
     {
       "id": 2,
       "name": "Peter",
-      "phone": [],
+      "nicknames": [],
+      "phones": [],
       "surname": null
     }
   ]

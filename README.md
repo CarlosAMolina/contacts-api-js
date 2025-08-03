@@ -13,6 +13,7 @@
   allContacts {
     id
     name
+    nicknames
     phones {
       description,
       number
