@@ -13,7 +13,7 @@
   allContacts {
     addresses
     categories
-    discords {
+    discordAccounts {
       alias
       discriminator
       global_name
@@ -22,7 +22,8 @@
     }
     id
     emails
-    facebooks
+    facebookAccounts
+    telegramAccounts
     name
     nicknames
     phones {

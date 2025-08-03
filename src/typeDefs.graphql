@@ -1,14 +1,15 @@
 type Contact {
     addresses: [String!]
     categories: [String!]
-    discords: [Discord!]
+    discordAccounts: [Discord!]
     emails: [String!]
-    facebooks: [String!]
+    facebookAccounts: [String!]
     id: Int!
     name: String!
     nicknames: [String!]
     phones: [Phone!]
     surname: String
+    telegramAccounts: [String!]
     urls: [String!]
 }
 

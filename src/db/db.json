@@ -4,7 +4,7 @@
       "id": 1,
       "addresses": ["foo bar", "bar foo"],
       "categories": ["university", "friend"],
-      "discords": [
+      "discordAccounts": [
           {
             "alias": "foo",
             "discriminator": 1,
@@ -14,7 +14,7 @@
           }
       ],
       "emails": ["a@mail.com"],
-      "facebooks": [
+      "facebookAccounts": [
           {
             "url": "https://www.facebook.com/john.d/"
           }
@@ -32,6 +32,7 @@
           }
       ],
       "surname": "Doe",
+      "telegramAccounts": ["@foo"],
       "urls": ["a.com"]
     },
     {
