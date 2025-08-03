@@ -12,6 +12,7 @@ type Contact {
     nicknames: [String!]
     phones: [Phone!]
     surname: String
+    urls: [String!]
 }
 
 type Query {
