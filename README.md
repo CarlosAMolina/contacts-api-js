@@ -23,7 +23,9 @@
     id
     emails
     facebookAccounts
+    githubAccounts
     instagramAccounts
+    linkedinAccounts
     telegramAccounts
     tiktokAccounts
     twitterAccounts

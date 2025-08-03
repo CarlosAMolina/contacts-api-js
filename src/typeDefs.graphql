@@ -4,9 +4,11 @@ type Contact {
     discordAccounts: [Discord!]
     emails: [String!]
     facebookAccounts: [String!]
+    githubAccounts: [String!]
     id: Int!
     instagramAccounts: [String!]
     name: String!
+    linkedinAccounts: [String!]
     nicknames: [String!]
     phones: [Phone!]
     surname: String

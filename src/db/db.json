@@ -13,6 +13,7 @@
             "user_name": "foo"
           }
       ],
+      "githubAccounts": ["foo"],
       "emails": ["a@mail.com"],
       "facebookAccounts": [
           {
@@ -22,6 +23,7 @@
       "name": "John",
       "nicknames": ["Johnny", "JD"],
       "instagramAccounts": ["foo"],
+      "linkedinAccounts": ["foo"],
       "phones": [
           {
               "description": "personal",
