@@ -2,7 +2,7 @@
   "contacts": [
     {
       "id": 1,
-      "name": "Carlos",
+      "name": "John",
       "phone": [
           {
               "description": "personal",
@@ -12,12 +12,14 @@
               "description": "work",
               "number": "123123123"
           }
-      ]
+      ],
+      "surname": "Doe"
     },
     {
       "id": 2,
-      "name": "John",
-      "phone": []
+      "name": "Peter",
+      "phone": [],
+      "surname": null
     }
   ]
 }
