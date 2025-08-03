@@ -1,6 +1,12 @@
+type Phone {
+    description: String
+    number: String!
+}
+
 type Contact {
     id: Int!
     name: String!
+    phone: [Phone!]!
 }
 
 type Query {

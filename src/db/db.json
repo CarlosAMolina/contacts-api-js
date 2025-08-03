@@ -2,11 +2,22 @@
   "contacts": [
     {
       "id": 1,
-      "name": "Carlos"
+      "name": "Carlos",
+      "phone": [
+          {
+              "description": "personal",
+              "number": "123456789"
+          },
+          {
+              "description": "work",
+              "number": "123123123"
+          }
+      ]
     },
     {
       "id": 2,
-      "name": "John"
+      "name": "John",
+      "phone": []
     }
   ]
 }
