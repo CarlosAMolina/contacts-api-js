@@ -20,11 +20,7 @@
     },
     {
       "id": 2,
-      "addresses": [],
-      "name": "Peter",
-      "nicknames": [],
-      "phones": [],
-      "surname": null
+      "name": "Peter"
     }
   ]
 }

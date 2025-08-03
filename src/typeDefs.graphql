@@ -4,12 +4,12 @@ type Phone {
 }
 
 type Contact {
-    addresses: [String!]!
+    addresses: [String!]
     categories: [String!]
     id: Int!
     name: String!
-    nicknames: [String!]!
-    phones: [Phone!]!
+    nicknames: [String!]
+    phones: [Phone!]
     surname: String
 }
 
