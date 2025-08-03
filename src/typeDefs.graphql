@@ -4,8 +4,8 @@ type Phone {
 }
 
 type Contact {
-    id: Int!
     addresses: [String!]!
+    id: Int!
     name: String!
     nicknames: [String!]!
     phones: [Phone!]!
