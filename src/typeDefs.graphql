@@ -6,7 +6,7 @@ type Phone {
 type Contact {
     id: Int!
     name: String!
-    phone: [Phone!]!
+    phones: [Phone!]!
     surname: String
 }
 

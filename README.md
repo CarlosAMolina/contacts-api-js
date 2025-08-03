@@ -13,7 +13,7 @@
   allContacts {
     id
     name
-    phone {
+    phones {
       description,
       number
     }
