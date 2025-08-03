@@ -22,6 +22,7 @@
     }
     id
     emails
+    facebooks
     name
     nicknames
     phones {

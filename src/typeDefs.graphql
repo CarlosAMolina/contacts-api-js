@@ -3,6 +3,7 @@ type Contact {
     categories: [String!]
     discords: [Discord!]
     emails: [String!]
+    facebooks: [String!]
     id: Int!
     name: String!
     nicknames: [String!]

@@ -14,6 +14,11 @@
           }
       ],
       "emails": ["a@mail.com"],
+      "facebooks": [
+          {
+            "url": "https://www.facebook.com/john.d/"
+          }
+      ],
       "name": "John",
       "nicknames": ["Johnny", "JD"],
       "phones": [
