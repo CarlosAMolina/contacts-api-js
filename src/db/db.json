@@ -21,6 +21,7 @@
       ],
       "name": "John",
       "nicknames": ["Johnny", "JD"],
+      "instagramAccounts": ["foo"],
       "phones": [
           {
               "description": "personal",
@@ -32,7 +33,9 @@
           }
       ],
       "surname": "Doe",
-      "telegramAccounts": ["@foo"],
+      "telegramAccounts": ["foo"],
+      "tiktokAccounts": ["foo"],
+      "twitterAccounts": ["foo"],
       "urls": ["a.com"]
     },
     {

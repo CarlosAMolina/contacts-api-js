@@ -23,7 +23,10 @@
     id
     emails
     facebookAccounts
+    instagramAccounts
     telegramAccounts
+    tiktokAccounts
+    twitterAccounts
     name
     nicknames
     phones {

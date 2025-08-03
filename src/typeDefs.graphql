@@ -5,11 +5,14 @@ type Contact {
     emails: [String!]
     facebookAccounts: [String!]
     id: Int!
+    instagramAccounts: [String!]
     name: String!
     nicknames: [String!]
     phones: [Phone!]
     surname: String
     telegramAccounts: [String!]
+    tiktokAccounts: [String!]
+    twitterAccounts: [String!]
     urls: [String!]
 }
 
