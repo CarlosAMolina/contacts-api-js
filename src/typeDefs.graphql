@@ -1,6 +1,7 @@
 type Contact {
     addresses: [String!]
     categories: [String!]
+    discords: [Discord!]
     emails: [String!]
     id: Int!
     name: String!
@@ -8,6 +9,14 @@ type Contact {
     phones: [Phone!]
     surname: String
     urls: [String!]
+}
+
+type Discord {
+	alias: String
+	discriminator: Int
+	global_name: String
+	legacy_user_name: String
+	user_name: String!
 }
 
 type Phone {

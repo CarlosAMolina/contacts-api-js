@@ -4,6 +4,15 @@
       "id": 1,
       "addresses": ["foo bar", "bar foo"],
       "categories": ["university", "friend"],
+      "discords": [
+          {
+            "alias": "foo",
+            "discriminator": 1,
+            "global_name": "foo",
+            "legacy_user_name": "foo",
+            "user_name": "foo"
+          }
+      ],
       "emails": ["a@mail.com"],
       "name": "John",
       "nicknames": ["Johnny", "JD"],
