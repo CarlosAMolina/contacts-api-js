@@ -4,6 +4,7 @@
       "id": 1,
       "addresses": ["foo bar", "bar foo"],
       "categories": ["university", "friend"],
+      "emails": ["a@mail.com"],
       "name": "John",
       "nicknames": ["Johnny", "JD"],
       "phones": [

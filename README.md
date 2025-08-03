@@ -14,6 +14,7 @@
     addresses
     categories
     id
+    emails
     name
     nicknames
     phones {
