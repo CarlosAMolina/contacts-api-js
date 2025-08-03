@@ -3,6 +3,7 @@
     {
       "id": 1,
       "addresses": ["foo bar", "bar foo"],
+      "categories": ["university", "friend"],
       "name": "John",
       "nicknames": ["Johnny", "JD"],
       "phones": [

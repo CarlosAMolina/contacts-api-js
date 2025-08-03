@@ -11,8 +11,9 @@
 ```graphql
 {
   allContacts {
-    id
     addresses
+    categories
+    id
     name
     nicknames
     phones {
