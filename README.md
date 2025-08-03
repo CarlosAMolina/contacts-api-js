@@ -2,13 +2,13 @@
 
 ## Queries
 
-```json
+```graphql
 {
   totalContacts
 }
 ```
 
-```json
+```graphql
 {
   allContacts {
     id
