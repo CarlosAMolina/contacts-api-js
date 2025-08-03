@@ -4,6 +4,6 @@ type Contact {
 }
 
 type Query {
-    totalContacts: Int!
     allContacts: [Contact!]!
+    totalContacts: Int!
 }
