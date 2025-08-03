@@ -12,6 +12,7 @@
 {
   allContacts {
     id
+    addresses
     name
     nicknames
     phones {

@@ -5,6 +5,7 @@ type Phone {
 
 type Contact {
     id: Int!
+    addresses: [String!]!
     name: String!
     nicknames: [String!]!
     phones: [Phone!]!

@@ -2,6 +2,7 @@
   "contacts": [
     {
       "id": 1,
+      "addresses": ["foo bar", "bar foo"],
       "name": "John",
       "nicknames": ["Johnny", "JD"],
       "phones": [
@@ -18,6 +19,7 @@
     },
     {
       "id": 2,
+      "addresses": [],
       "name": "Peter",
       "nicknames": [],
       "phones": [],
