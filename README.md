@@ -13,6 +13,10 @@
   allContacts {
     id
     name
+    phone {
+      description,
+      number
+    }
   }
 }
 ```
