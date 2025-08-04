@@ -19,9 +19,9 @@
       discordAccounts {
         alias
         discriminator
-        global_name
-        legacy_user_name
-        user_name
+        globalName
+        legacyUserName
+        userName
       }
       facebookAccounts
       githubAccounts

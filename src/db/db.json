@@ -23,9 +23,9 @@
             {
               "alias": "foo",
               "discriminator": 1,
-              "global_name": "foo",
-              "legacy_user_name": "foo",
-              "user_name": "foo"
+              "globalName": "foo",
+              "legacyUserName": "foo",
+              "userName": "foo"
             }
         ],
         "facebookAccounts": ["https://www.facebook.com/john.d/"],

@@ -20,9 +20,9 @@ type Contact {
 type Discord {
   alias: String
   discriminator: Int
-  global_name: String
-  legacy_user_name: String
-  user_name: String!
+  globalName: String
+  legacyUserName: String
+  userName: String!
 }
 
 type Phone {
