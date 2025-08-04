@@ -1,3 +1,8 @@
+type Query {
+    allContacts: [Contact!]!
+    totalContacts: Int!
+}
+
 type Contact {
     addresses: [String!]
     categories: [String!]
@@ -29,9 +34,4 @@ type Discord {
 type Phone {
     description: String
     number: String!
-}
-
-type Query {
-    allContacts: [Contact!]!
-    totalContacts: Int!
 }
