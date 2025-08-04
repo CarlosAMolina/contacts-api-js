@@ -1,44 +1,44 @@
 type Query {
-    allContacts: [Contact!]!
-    totalContacts: Int!
+  allContacts: [Contact!]!
+  totalContacts: Int!
 }
 
 type Contact {
-    addresses: [String!]
-    categories: [String!]
-    discordAccounts: [Discord!]
-    emails: [String!]
-    facebookAccounts: [String!]
-    githubAccounts: [String!]
-    id: Int!
-    instagramAccounts: [String!]
-    name: String!
-    linkedinAccounts: [String!]
-    nicknames: [String!]
-    note: String
-    phones: [Phone!]
-    surname: String
-    telegramAccounts: [String!]
-    tiktokAccounts: [String!]
-    twitterAccounts: [String!]
-    urls: [String!]
-    wallapopAccounts: [Wallapop!]
+  addresses: [String!]
+  categories: [String!]
+  discordAccounts: [Discord!]
+  emails: [String!]
+  facebookAccounts: [String!]
+  githubAccounts: [String!]
+  id: Int!
+  instagramAccounts: [String!]
+  name: String!
+  linkedinAccounts: [String!]
+  nicknames: [String!]
+  note: String
+  phones: [Phone!]
+  surname: String
+  telegramAccounts: [String!]
+  tiktokAccounts: [String!]
+  twitterAccounts: [String!]
+  urls: [String!]
+  wallapopAccounts: [Wallapop!]
 }
 
 type Discord {
-	alias: String
-	discriminator: Int
-	global_name: String
-	legacy_user_name: String
-	user_name: String!
+  alias: String
+  discriminator: Int
+  global_name: String
+  legacy_user_name: String
+  user_name: String!
 }
 
 type Phone {
-    description: String
-    number: String!
+  description: String
+  number: String!
 }
 
 type Wallapop {
-    url: String!
-    note: String
+  url: String!
+  note: String
 }
