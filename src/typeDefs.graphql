@@ -6,14 +6,9 @@ type Query {
 type Contact {
   addresses: [String!]
   categories: [String!]
-  discordAccounts: [Discord!]
   emails: [String!]
-  facebookAccounts: [String!]
-  githubAccounts: [String!]
   id: Int!
-  instagramAccounts: [String!]
   name: String!
-  linkedinAccounts: [String!]
   nicknames: [String!]
   note: String
   phones: [Phone!]
@@ -36,6 +31,11 @@ type Phone {
 }
 
 type SocialNetwork{
+  discordAccounts: [Discord!]
+  facebookAccounts: [String!]
+  githubAccounts: [String!]
+  instagramAccounts: [String!]
+  linkedinAccounts: [String!]
   telegramAccounts: [String!]
   tiktokAccounts: [String!]
   twitterAccounts: [String!]

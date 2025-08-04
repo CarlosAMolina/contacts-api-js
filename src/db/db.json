@@ -4,22 +4,9 @@
       "id": 1,
       "addresses": ["foo bar", "bar foo"],
       "categories": ["university", "friend"],
-      "discordAccounts": [
-          {
-            "alias": "foo",
-            "discriminator": 1,
-            "global_name": "foo",
-            "legacy_user_name": "foo",
-            "user_name": "foo"
-          }
-      ],
-      "githubAccounts": ["foo"],
       "emails": ["a@mail.com"],
-      "facebookAccounts": ["https://www.facebook.com/john.d/"],
       "name": "John",
       "nicknames": ["Johnny", "JD"],
-      "instagramAccounts": ["foo"],
-      "linkedinAccounts": ["foo"],
       "note": "foo",
       "phones": [
           {
@@ -32,6 +19,19 @@
           }
       ],
       "socialNetwork": {
+        "discordAccounts": [
+            {
+              "alias": "foo",
+              "discriminator": 1,
+              "global_name": "foo",
+              "legacy_user_name": "foo",
+              "user_name": "foo"
+            }
+        ],
+        "facebookAccounts": ["https://www.facebook.com/john.d/"],
+        "githubAccounts": ["foo"],
+        "instagramAccounts": ["foo"],
+        "linkedinAccounts": ["foo"],
         "telegramAccounts": ["foo"],
         "tiktokAccounts": ["foo"],
         "twitterAccounts": ["foo"],
