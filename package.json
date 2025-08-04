@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "lint": "npx eslint src/",
     "start": "node index.js",
     "startDev": "nodemon -e js,json,graphql",
     "test": "echo \"Error: no test specified\" && exit 1"
