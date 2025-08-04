@@ -19,9 +19,6 @@ type Contact {
   phones: [Phone!]
   socialNetwork: SocialNetwork
   surname: String
-  telegramAccounts: [String!]
-  tiktokAccounts: [String!]
-  twitterAccounts: [String!]
   urls: [String!]
 }
 
@@ -39,6 +36,9 @@ type Phone {
 }
 
 type SocialNetwork{
+  telegramAccounts: [String!]
+  tiktokAccounts: [String!]
+  twitterAccounts: [String!]
   wallapopAccounts: [Wallapop!]
 }
 

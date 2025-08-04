@@ -27,14 +27,14 @@
     instagramAccounts
     linkedinAccounts
     socialNetwork {
+      telegramAccounts
+      tiktokAccounts
+      twitterAccounts
       wallapopAccounts {
         url
         note
       }
     }
-    telegramAccounts
-    tiktokAccounts
-    twitterAccounts
     name
     nicknames
     note

@@ -32,6 +32,9 @@
           }
       ],
       "socialNetwork": {
+        "telegramAccounts": ["foo"],
+        "tiktokAccounts": ["foo"],
+        "twitterAccounts": ["foo"],
         "wallapopAccounts": [
           {
             "url": "foo",
@@ -40,9 +43,6 @@
         ]
       },
       "surname": "Doe",
-      "telegramAccounts": ["foo"],
-      "tiktokAccounts": ["foo"],
-      "twitterAccounts": ["foo"],
       "urls": ["foo"]
     },
     {
