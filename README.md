@@ -31,6 +31,7 @@
     twitterAccounts
     name
     nicknames
+    note
     phones {
       description,
       number

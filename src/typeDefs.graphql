@@ -15,6 +15,7 @@ type Contact {
     name: String!
     linkedinAccounts: [String!]
     nicknames: [String!]
+    note: String
     phones: [Phone!]
     surname: String
     telegramAccounts: [String!]

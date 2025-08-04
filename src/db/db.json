@@ -24,6 +24,7 @@
       "nicknames": ["Johnny", "JD"],
       "instagramAccounts": ["foo"],
       "linkedinAccounts": ["foo"],
+      "note": "foo",
       "phones": [
           {
               "description": "personal",
