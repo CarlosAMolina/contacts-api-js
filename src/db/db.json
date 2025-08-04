@@ -31,17 +31,19 @@
               "number": "123123123"
           }
       ],
+      "socialNetwork": {
+        "wallapopAccounts": [
+          {
+            "url": "foo",
+            "note": "foo"
+          }
+        ]
+      },
       "surname": "Doe",
       "telegramAccounts": ["foo"],
       "tiktokAccounts": ["foo"],
       "twitterAccounts": ["foo"],
-      "urls": ["foo"],
-      "wallapopAccounts": [
-        {
-          "url": "foo",
-          "note": "foo"
-        }
-      ]
+      "urls": ["foo"]
     },
     {
       "id": 2,

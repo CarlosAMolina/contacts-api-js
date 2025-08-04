@@ -26,6 +26,12 @@
     githubAccounts
     instagramAccounts
     linkedinAccounts
+    socialNetwork {
+      wallapopAccounts {
+        url
+        note
+      }
+    }
     telegramAccounts
     tiktokAccounts
     twitterAccounts
@@ -38,10 +44,6 @@
     }
     surname
     urls
-    wallapopAccounts {
-      url
-      note
-    }
   }
 }
 ```

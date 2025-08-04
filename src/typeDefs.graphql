@@ -17,12 +17,12 @@ type Contact {
   nicknames: [String!]
   note: String
   phones: [Phone!]
+  socialNetwork: SocialNetwork
   surname: String
   telegramAccounts: [String!]
   tiktokAccounts: [String!]
   twitterAccounts: [String!]
   urls: [String!]
-  wallapopAccounts: [Wallapop!]
 }
 
 type Discord {
@@ -36,6 +36,10 @@ type Discord {
 type Phone {
   description: String
   number: String!
+}
+
+type SocialNetwork{
+  wallapopAccounts: [Wallapop!]
 }
 
 type Wallapop {
