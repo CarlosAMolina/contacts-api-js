@@ -15,11 +15,7 @@
       ],
       "githubAccounts": ["foo"],
       "emails": ["a@mail.com"],
-      "facebookAccounts": [
-          {
-            "url": "https://www.facebook.com/john.d/"
-          }
-      ],
+      "facebookAccounts": ["https://www.facebook.com/john.d/"],
       "name": "John",
       "nicknames": ["Johnny", "JD"],
       "instagramAccounts": ["foo"],
