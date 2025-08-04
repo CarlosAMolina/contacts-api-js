@@ -37,6 +37,10 @@
     }
     surname
     urls
+    wallapopAccounts {
+      url
+      note
+    }
   }
 }
 ```

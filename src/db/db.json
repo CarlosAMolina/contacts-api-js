@@ -38,7 +38,13 @@
       "telegramAccounts": ["foo"],
       "tiktokAccounts": ["foo"],
       "twitterAccounts": ["foo"],
-      "urls": ["a.com"]
+      "urls": ["foo"],
+      "wallapopAccounts": [
+        {
+          "url": "foo",
+          "note": "foo"
+        }
+      ]
     },
     {
       "id": 2,
