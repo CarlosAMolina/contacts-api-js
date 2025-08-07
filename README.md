@@ -2,11 +2,17 @@
 
 ## Queries
 
+Count:
+
 ```graphql
 {
   totalContacts
 }
 ```
+
+You can filter:
+
+- `totalContacts(search:"123")`
 
 ```graphql
 {
@@ -47,3 +53,8 @@
   }
 }
 ```
+
+You can filter:
+
+- `allContacts(search:"123")`
+

@@ -1,5 +1,5 @@
 export function getContactsMatched(contacts, termInput) {
-    const term = termInput.toString().toLowerCase();
+    const term = termInput.toLowerCase();
     const matchedContacs = []
 
     function search(value) {
