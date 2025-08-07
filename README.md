@@ -6,13 +6,13 @@ Count:
 
 ```graphql
 {
-  totalContacts
+  countContacts
 }
 ```
 
 You can filter:
 
-- `totalContacts(search:"123")`
+- `countContacts(search:"123")`
 
 ```graphql
 {

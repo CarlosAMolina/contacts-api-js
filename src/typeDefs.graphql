@@ -1,6 +1,6 @@
 type Query {
   allContacts(search: String): [Contact!]!
-  totalContacts(search: String): Int!
+  countContacts(search: String): Int!
 }
 
 type Contact {

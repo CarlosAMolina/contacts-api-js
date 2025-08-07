@@ -10,7 +10,7 @@ export const resolvers = {
             }
             return getContactsMatched(contacts, args.search)
         },
-        totalContacts: async (parent, args) => {
+        countContacts: async (parent, args) => {
             const { contacts } = await getDB()
             if (typeof args.search === 'undefined') {
                 return contacts.length
