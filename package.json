@@ -1,34 +1,35 @@
 {
-  "name": "contacts",
-  "version": "0.1.0",
-  "description": "This app manages your contacts, like a phone book",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "lint": "npx eslint src/",
-    "start": "node index.js",
-    "startDev": "nodemon -e js,json,graphql",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CarlosAMolina/contacts-js.git"
-  },
-  "author": "CarlosAMolina",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CarlosAMolina/contacts-js/issues"
-  },
-  "homepage": "https://github.com/CarlosAMolina/contacts-js#readme",
-  "dependencies": {
-    "apollo-server": "^3.13.0",
-    "graphql": "^16.11.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.32.0",
-    "eslint": "^9.32.0",
-    "globals": "^16.3.0",
-    "jest": "^30.0.5",
-    "nodemon": "^3.1.10"
-  }
+    "name": "contacts",
+    "version": "0.1.0",
+    "description": "This app manages your contacts, like a phone book",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "npx eslint .",
+        "start": "node index.js",
+        "startDev": "nodemon -e js,json,graphql",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CarlosAMolina/contacts-js.git"
+    },
+    "author": "CarlosAMolina",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CarlosAMolina/contacts-js/issues"
+    },
+    "homepage": "https://github.com/CarlosAMolina/contacts-js#readme",
+    "dependencies": {
+        "apollo-server": "^3.13.0",
+        "graphql": "^16.11.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.32.0",
+        "eslint": "^9.32.0",
+        "eslint-plugin-jest": "^29.0.1",
+        "globals": "^16.3.0",
+        "jest": "^30.0.5",
+        "nodemon": "^3.1.10"
+    }
 }
