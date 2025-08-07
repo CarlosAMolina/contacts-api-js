@@ -3,7 +3,7 @@ import { getContactsMatched } from '../json-util.js'
 
 export const resolvers = {
     Query: {
-        allContacts: async (parent, args) => {
+        contacts: async (parent, args) => {
             const { contacts } = await getDB()
             if (typeof args.search === 'undefined') {
                 return contacts

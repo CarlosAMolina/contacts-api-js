@@ -16,7 +16,7 @@ You can filter:
 
 ```graphql
 {
-  allContacts {
+  contacts {
     addresses
     categories
     id
@@ -56,5 +56,5 @@ You can filter:
 
 You can filter:
 
-- `allContacts(search:"123")`
+- `contacts(search:"123")`
 
