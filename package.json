@@ -6,6 +6,7 @@
     "type": "module",
     "scripts": {
         "lint": "npx eslint .",
+        "lint:fix": "npx eslint --fix .",
         "start": "node index.js",
         "startDev": "nodemon -e js,json,graphql",
         "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
