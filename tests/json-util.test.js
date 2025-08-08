@@ -13,6 +13,10 @@ describe('getContactsMatched matches differente values', () => {
         const contacts = [{"phones": [{"description": "foo"}]}]
         expect([{"phones": [{"description": "foo"}]}]).toEqual(getContactsMatched(contacts, "foo"));
     });
+    test('object of objects', () => {
+        const contacts = [{"socialNetwork":{"discordAccounts":[{"alias": "foo"}]}}]
+        expect([{"phones": [{"description": "foo"}]}]).toEqual(getContactsMatched(contacts, "foo"));
+    });
     test('string', () => {
         const contacts = [{"name": "foo"}]
         expect([{"name": "foo"}]).toEqual(getContactsMatched(contacts, "foo"));
