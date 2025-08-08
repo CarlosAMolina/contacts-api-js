@@ -1,5 +1,7 @@
 FROM node:22.14.0-slim
-EXPOSE 4000
+ARG PORT
+ENV API_PORT=$PORT
+EXPOSE $PORT
 COPY package.json package-lock.json /
 RUN npm ci --omit=dev
 COPY index.js /
