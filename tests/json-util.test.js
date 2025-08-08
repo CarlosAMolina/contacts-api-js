@@ -27,7 +27,7 @@ describe('getContactsMatched', () => {
         const contacts = [{"name": "foo"}]
         expect([]).toEqual(getContactsMatched(contacts, "name"));
     });
-    test('matches utf8 if searching ascii', () => {
+    test('matches accent if searching not accent', () => {
         const contacts = [{"name": "Jóhn"}]
         expect([{ "name": "Jóhn"}]).toEqual(getContactsMatched(contacts, "o"));
     });

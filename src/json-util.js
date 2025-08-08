@@ -1,5 +1,5 @@
 export function getContactsMatched(contacts, termInput) {
-    const term = termInput.toLowerCase();
+    const term = getStringWithoutAccent(termInput.toLowerCase());
     const matchedContacs = []
 
     function search(value) {
@@ -7,7 +7,7 @@ export function getContactsMatched(contacts, termInput) {
             value = value.toString();
         }
         if (typeof value === 'string') {
-            return value.toLowerCase().includes(term);
+            return getStringWithoutAccent(value.toLowerCase()).includes(term);
         }
         else if (Array.isArray(value)) {
             return value.some(item => search(item));
@@ -24,4 +24,15 @@ export function getContactsMatched(contacts, termInput) {
         }
     }
     return matchedContacs;
+}
+
+function getStringWithoutAccent(string) {
+    const charMap = new Map([
+        ['á', 'a'],
+        ['é', 'e'],
+        ['í', 'i'],
+        ['ó', 'o'],
+        ['ú', 'u']
+    ]);
+    return string.replace(/[áéíóú]/g, match => charMap.get(match));
 }
