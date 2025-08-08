@@ -3,7 +3,7 @@ export function getContactsMatched(contacts, termInput) {
     const matchedContacs = []
 
     function search(value) {
-        if (typeof value === Number.isInteger(value)) {
+        if (typeof value === 'number') {
             value = value.toString();
         }
         if (typeof value === 'string') {
