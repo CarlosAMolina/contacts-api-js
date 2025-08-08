@@ -1,4 +1,4 @@
-import { getContactsMatched } from '../src/json-util.js'
+import { getContactsMatched, getStringWithoutAccent } from '../src/json-util.js'
 
 describe('getContactsMatched', () => {
     test('does not match the key', () => {
@@ -34,5 +34,11 @@ describe('getContactsMatched', () => {
             const contacts = [{"name": "foo"}]
             expect([{"name": "foo"}]).toEqual(getContactsMatched(contacts, "foo"));
         });
+    });
+})
+
+describe('getStringWithoutAccent', () => {
+    test('all accents are replaced', () => {
+        expect("aeiou").toEqual(getStringWithoutAccent("áéíóú"));
     });
 })

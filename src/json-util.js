@@ -26,7 +26,7 @@ export function getContactsMatched(contacts, termInput) {
     return matchedContacs;
 }
 
-function getStringWithoutAccent(string) {
+export function getStringWithoutAccent(string) {
     const charMap = new Map([
         ['á', 'a'],
         ['é', 'e'],
