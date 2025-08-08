@@ -3,8 +3,8 @@ import { getContactsMatched } from '../src/json-util.js'
 describe('getContactsMatched', () => {
     describe('matches differente values', () => {
         test('array of objects', () => {
-            const contacts = [{"phones": [{"description": "foo"}]}]
-            expect([{"phones": [{"description": "foo"}]}]).toEqual(getContactsMatched(contacts, "foo"));
+            const contacts = [{"phones": [{"number": "1234"}]}]
+            expect([{"phones": [{"number": "1234"}]}]).toEqual(getContactsMatched(contacts, "23"));
         });
         test('array of strings', () => {
             const contacts = [{"addresses": ["foo"]}]
@@ -24,7 +24,7 @@ describe('getContactsMatched', () => {
         });
     });
     test('returns all object values', () => {
-        const contacts = [{"id": 1, "name": "John", "phones": [{"description": "foo"}]}]
-        expect([{"id": 1, "name": "John", "phones": [{"description": "foo"}]}]).toEqual(getContactsMatched(contacts, "foo"));
+        const contacts = [{"id": 1, "name": "John", "phones": [{"description": "foo", "number": "1234"}]}]
+        expect([{"id": 1, "name": "John", "phones": [{"description": "foo", "number": "1234"}]}]).toEqual(getContactsMatched(contacts, "foo"));
     });
 })
