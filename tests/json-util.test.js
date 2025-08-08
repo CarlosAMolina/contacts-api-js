@@ -27,10 +27,10 @@ describe('getContactsMatched', () => {
         const contacts = [{"name": "foo"}]
         expect([]).toEqual(getContactsMatched(contacts, "name"));
     });
-    //test('matches utf8 with not utf8', () => {
-    //    const contacts = [{"name": "Jóhn"}]
-    //    expect([{ "name": "Jóhn"}]).toEqual(getContactsMatched(contacts, "o"));
-    //});
+    test('matches utf8 if searching ascii', () => {
+        const contacts = [{"name": "Jóhn"}]
+        expect([{ "name": "Jóhn"}]).toEqual(getContactsMatched(contacts, "o"));
+    });
     test('returns all object values', () => {
         const contacts = [{"id": 1, "name": "John", "phones": [{"description": "foo", "number": "1234"}]}]
         expect([{"id": 1, "name": "John", "phones": [{"description": "foo", "number": "1234"}]}]).toEqual(getContactsMatched(contacts, "foo"));
