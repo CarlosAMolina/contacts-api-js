@@ -2,7 +2,7 @@
 
 import { server } from './src/server.js'
 
-const port = 4000
+const port = typeof process.argv[2] === 'undefined' ? 4000 : process.argv[2];
 
 server
     .listen(port)
