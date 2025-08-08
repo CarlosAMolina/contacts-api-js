@@ -9,6 +9,10 @@ describe('getContactsMatched matches differente values', () => {
         const contacts = [{"addresses": ["foo"]}]
         expect([{"addresses": ["foo"]}]).toEqual(getContactsMatched(contacts, "foo"));
     });
+    test('array of objects', () => {
+        const contacts = [{"phones": [{"description": "foo"}]}]
+        expect([{"phones": [{"description": "foo"}]}]).toEqual(getContactsMatched(contacts, "foo"));
+    });
     test('string', () => {
         const contacts = [{"name": "foo"}]
         expect([{"name": "foo"}]).toEqual(getContactsMatched(contacts, "foo"));
