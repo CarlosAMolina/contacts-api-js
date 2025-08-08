@@ -10,7 +10,7 @@
         "start": "node index.js",
         "startDev": "nodemon -e js,json,graphql",
         "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-        "testFilter": "node --experimental-vm-modules node_modules/jest/bin/jest.js -t 'key id'"
+        "testFilter": "node --experimental-vm-modules node_modules/jest/bin/jest.js -t 'integer'"
     },
     "repository": {
         "type": "git",
