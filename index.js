@@ -2,7 +2,7 @@
 
 import { server } from './src/server.js'
 
-const port = 4001
+const port = 4000
 
 server
     .listen(port)
