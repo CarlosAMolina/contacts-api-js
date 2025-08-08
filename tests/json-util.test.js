@@ -1,6 +1,7 @@
 import { getContactsMatched } from '../src/json-util.js'
 
-describe('getContactsMatched matches differente values', () => {
+describe('getContactsMatched', () => {
+    describe('matches differente values', () => {
     test('array of objects', () => {
         const contacts = [{"phones": [{"description": "foo"}]}]
         expect([{"phones": [{"description": "foo"}]}]).toEqual(getContactsMatched(contacts, "foo"));
@@ -20,5 +21,6 @@ describe('getContactsMatched matches differente values', () => {
     test('string', () => {
         const contacts = [{"name": "foo"}]
         expect([{"name": "foo"}]).toEqual(getContactsMatched(contacts, "foo"));
+    });
     });
 })
