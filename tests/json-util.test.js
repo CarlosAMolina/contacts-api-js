@@ -23,4 +23,8 @@ describe('getContactsMatched', () => {
             expect([{"name": "foo"}]).toEqual(getContactsMatched(contacts, "foo"));
         });
     });
+    test('gives all object values', () => {
+        const contacts = [{"id": 1, "name": "John", "phones": [{"description": "foo"}]}]
+        expect([{"id": 1, "name": "John", "phones": [{"description": "foo"}]}]).toEqual(getContactsMatched(contacts, "foo"));
+    });
 })
