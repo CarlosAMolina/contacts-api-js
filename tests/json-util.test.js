@@ -15,7 +15,7 @@ describe('getContactsMatched matches differente values', () => {
     });
     test('object of objects', () => {
         const contacts = [{"socialNetwork":{"discordAccounts":[{"alias": "foo"}]}}]
-        expect([{"phones": [{"description": "foo"}]}]).toEqual(getContactsMatched(contacts, "foo"));
+        expect([{"socialNetwork":{"discordAccounts":[{"alias": "foo"}]}}]).toEqual(getContactsMatched(contacts, "foo"));
     });
     test('string', () => {
         const contacts = [{"name": "foo"}]
