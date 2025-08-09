@@ -14,14 +14,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/CarlosAMolina/contacts-js.git"
+        "url": "git+https://github.com/CarlosAMolina/contacts-api-js.git"
     },
     "author": "CarlosAMolina",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/CarlosAMolina/contacts-js/issues"
+        "url": "https://github.com/CarlosAMolina/contacts-api-js/issues"
     },
-    "homepage": "https://github.com/CarlosAMolina/contacts-js#readme",
+    "homepage": "https://github.com/CarlosAMolina/contacts-api-js#readme",
     "dependencies": {
         "apollo-server": "^3.13.0",
         "graphql": "^16.11.0"
