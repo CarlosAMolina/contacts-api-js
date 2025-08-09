@@ -5,17 +5,17 @@ export const resolvers = {
     Query: {
         contacts: async (parent, args) => {
             const { contacts } = await getDB()
-            if (typeof args.search === 'undefined') {
+            if (typeof args.filter === 'undefined') {
                 return contacts
             }
-            return getContactsMatched(contacts, args.search)
+            return getContactsMatched(contacts, args.filter)
         },
         countContacts: async (parent, args) => {
             const { contacts } = await getDB()
-            if (typeof args.search === 'undefined') {
+            if (typeof args.filter === 'undefined') {
                 return contacts.length
             }
-            return getContactsMatched(contacts, args.search).length
+            return getContactsMatched(contacts, args.filter).length
         }
     }
 }

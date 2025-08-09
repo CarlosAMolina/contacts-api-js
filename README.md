@@ -12,7 +12,7 @@ Count:
 
 You can filter:
 
-- `countContacts(search:"123")`
+- `countContacts(filter:"123")`
 
 ```graphql
 {
@@ -56,5 +56,5 @@ You can filter:
 
 You can filter:
 
-- `contacts(search:"123")`
+- `contacts(filter:"123")`
 
