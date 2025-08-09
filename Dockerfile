@@ -3,8 +3,8 @@ COPY package.json package-lock.json /
 RUN npm ci --omit=dev
 COPY index.js /
 COPY src /src
-ARG PORT
-ENV API_PORT=$PORT
+ARG API_PORT
+ENV API_PORT=$API_PORT
 EXPOSE $PORT
 CMD ["npm", "start"]
 #ENTRYPOINT ["tail", "-f", "/dev/null"]
