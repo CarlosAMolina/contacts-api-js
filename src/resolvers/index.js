@@ -5,7 +5,7 @@ export const resolvers = {
     Query: {
         contacts: async (parent, args) => {
             const { contacts } = await getDB()
-            if (typeof args.filter === 'string') {
+            if (typeof args.filter !== 'undefined') {
                 return getContactsMatched(contacts, args.filter)
             }
             return contacts
