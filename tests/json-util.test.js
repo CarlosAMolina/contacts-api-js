@@ -1,4 +1,15 @@
-import { getContactsMatched, getStringWithoutAccent } from '../src/json-util.js'
+import { getContactById, getContactsMatched, getStringWithoutAccent } from '../src/json-util.js'
+
+describe('getContactById', () => {
+    test('existent id is retrieved', () => {
+        const contacts = [{"id": 1}]
+        expect([{ "id": 1 }]).toEqual(getContactById(contacts, 1));
+    });
+    test('non existent id returns empty result', () => {
+        const contacts = [{"name": "Jóhn"}]
+        expect([]).toEqual(getContactById(contacts, "o"));
+    });
+})
 
 describe('getContactsMatched', () => {
     test('does not match the key', () => {

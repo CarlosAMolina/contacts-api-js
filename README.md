@@ -10,7 +10,7 @@ Count:
 }
 ```
 
-You can filter:
+Modify the previous query to filter:
 
 - `countContacts(filter:"123")`
 
@@ -54,7 +54,7 @@ You can filter:
 }
 ```
 
-You can filter:
+Modify the previous query to filter:
 
-- `contacts(filter:"123")`
-
+- By search term: `contacts(filter:"123")`
+- By id: `contacts(id:1)`

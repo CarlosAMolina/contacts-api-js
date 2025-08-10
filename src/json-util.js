@@ -1,3 +1,7 @@
+export function getContactById(contacts, id) {
+    return contacts.filter(contact => contact.id === id);
+}
+
 export function getContactsMatched(contacts, termInput) {
     const term = getStringWithoutAccent(termInput.toLowerCase());
     const matchedContacs = []

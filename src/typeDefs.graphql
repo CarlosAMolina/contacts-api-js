@@ -1,5 +1,5 @@
 type Query {
-  contacts(filter: String): [Contact!]!
+  contacts(filter: String, id: Int): [Contact!]!
   countContacts(filter: String): Int!
 }
 
