@@ -5,10 +5,10 @@ export const resolvers = {
     Query: {
         contacts: async (parent, args) => {
             const { contacts } = await getDB()
-            if (typeof args.filter === 'undefined') {
-                return contacts
+            if (typeof args.filter !== 'undefined') {
+                return getContactsMatched(contacts, args.filter)
             }
-            return getContactsMatched(contacts, args.filter)
+            return contacts
         },
         countContacts: async (parent, args) => {
             const { contacts } = await getDB()
