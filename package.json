@@ -1,6 +1,6 @@
 {
     "name": "contacts-api",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "This app manages your contacts, like a phone book",
     "main": "index.js",
     "type": "module",
