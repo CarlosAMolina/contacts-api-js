@@ -26,10 +26,14 @@
               "globalName": "foo",
               "legacyUserName": "foo",
               "userName": "foo"
+            },
+            {
+              "legacyUserName": "bar",
+              "userName": "bar"
             }
         ],
         "facebookAccounts": ["https://www.facebook.com/john.d/"],
-        "githubAccounts": ["foo"],
+        "githubAccounts": ["foo", "bar"],
         "instagramAccounts": ["foo"],
         "linkedinAccounts": ["foo"],
         "telegramAccounts": ["foo"],
@@ -39,6 +43,9 @@
           {
             "url": "foo",
             "note": "foo"
+          },
+          {
+            "url": "bar"
           }
         ]
       },
