@@ -4,6 +4,10 @@
 
 Read this [file](https://github.com/CarlosAMolina/contacts/blob/main/README.md) for an explanation of Docker, Bash, etc.
 
+### DB file
+
+The file `/tmp/contacts.json` must exist.
+
 ## Queries
 
 Count:
