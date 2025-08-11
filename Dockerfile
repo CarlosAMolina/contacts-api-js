@@ -5,6 +5,6 @@ COPY index.js /
 COPY src /src
 ARG API_PORT
 ENV API_PORT=$API_PORT
-EXPOSE $PORT
+EXPOSE $API_PORT
 CMD ["npm", "start"]
 #ENTRYPOINT ["tail", "-f", "/dev/null"]

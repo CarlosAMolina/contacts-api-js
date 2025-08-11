@@ -1,5 +1,9 @@
 # contacts-api-js
 
+## Configuration
+
+Read this [file](https://github.com/CarlosAMolina/contacts/blob/main/README.md) for an explanation of Docker, Bash, etc.
+
 ## Queries
 
 Count:
@@ -58,7 +62,3 @@ Modify the previous query to filter:
 
 - By search term: `contacts(filter:"123")`
 - By id: `contacts(id:1)`
-
-## Docker configuration
-
-It is explained in this [file](https://github.com/CarlosAMolina/contacts/blob/main/README.md).
