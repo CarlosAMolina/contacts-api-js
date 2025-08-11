@@ -16,7 +16,7 @@ run:
 		-p $(API_PORT):$(API_PORT)\
 		--net=$(NETWORK_NAME) \
 		--ip=$(API_CONTAINER_IP) \
-		-v /tmp/contacts.json:/src/db/db.json \
+		-v /tmp/contacts.json:/home/app_user/src/db/db.json \
 		--name $(API_CONTAINER_NAME) \
 		$(API_IMAGE_NAME)
 
